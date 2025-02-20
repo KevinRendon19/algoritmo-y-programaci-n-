@@ -1,0 +1,16 @@
+def ejercicio_8_triangulo():
+    # Definir variables y entrada de datos
+    lad1 = float(input("Ingrese lado 1: "))
+    lad2 = float(input("Ingrese lado 2: "))
+    lad3 = float(input("Ingrese lado 3: "))
+
+    # Proceso
+    if lad1 == lad2 and lad1 == lad3:
+        print("Triángulo equilátero")
+    elif lad1 != lad2 and lad1 != lad3 and lad2 != lad3:
+        print("Triángulo escaleno")
+    else:
+        print("Triángulo isósceles")
+
+# Ejecutar la función
+ejercicio_8_triangulo()

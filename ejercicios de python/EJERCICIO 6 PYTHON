@@ -1,0 +1,13 @@
+def ejercicio_6_porcentaje_de_estudiantes():
+    # Entrada de datos
+    hombres = int(input("Promedio de hombres: "))
+    mujeres = int(input("Promedio de mujeres: "))
+
+    # Caja negra
+    promedio = (hombres + mujeres) / 2
+
+    # Salida
+    print("El promedio es:", promedio)
+
+# Ejecutar la función
+ejercicio_6_porcentaje_de_estudiantes()

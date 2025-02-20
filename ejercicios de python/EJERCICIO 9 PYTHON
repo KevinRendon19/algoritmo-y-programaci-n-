@@ -1,0 +1,14 @@
+def ejercicio_9_salario_semanal():
+    # Entrada de datos
+    salDiario = float(input("Ingrese el salario diario: "))
+    cantDias = int(input("Ingrese la cantidad de días trabajados: "))
+
+    # Proceso
+    salSemanal = salDiario * cantDias
+
+    # Salida
+    print("El salario de la persona es de:", salSemanal)
+
+# Ejecutar la función
+ejercicio_9_salario_semanal()
+

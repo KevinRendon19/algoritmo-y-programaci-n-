@@ -1,0 +1,13 @@
+def ejercicio_7_metros_a_pies_pulgadas():
+    # Entrada de datos
+    metros = float(input("Ingresar cantidad de metros: "))
+
+    # Conversiones
+    pul = metros * 39.37
+    pies = pul / 12
+
+    # Salida
+    print(f"{metros} metros equivale a {pul:.3f} pulgadas y {pies:.3f} pies.")
+
+# Ejecutar la función
+ejercicio_7_metros_a_pies_pulgadas()

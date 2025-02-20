@@ -1,0 +1,36 @@
+def ejercicio_10():
+    # Entradas de chelines a pesetas
+    Chelines = float(input("Ingrese la cantidad de Chelines Austriacos: "))
+    
+    # Caja negra Chelines a Pesetas
+    CambioChelinesaPesetas = 956.871 / 100
+    CheliPesetas = CambioChelinesaPesetas * Chelines
+    
+    # Salida de chelines a pesetas
+    print(f"{Chelines} Chelines equivalen a {CheliPesetas} pesetas.")
+    
+    # Entradas de dracmas griegos a francos franceses
+    Dracmas = float(input("Ingrese la cantidad de Dracmas Griegos: "))
+    
+    # Caja negra de Dracmas Griegos a Francos Franceses
+    CambioDracmaaPesetas = 88.607 / 100
+    CambioPesetasaFrancoF = 1 / 20.11
+    DracmasaFrancoF = (Dracmas * CambioDracmaaPesetas) * CambioPesetasaFrancoF
+    
+    # Salida de Dracmas Griegos a Francos Franceses
+    print(f"{Dracmas} Dracmas Griegos equivalen a {DracmasaFrancoF} francos franceses.")
+    
+    # Entradas de Pesetas a Dólar EEUU y Liras Italianas
+    Pesetas = float(input("Ingrese la cantidad de Pesetas: "))
+    
+    # Caja negra Pesetas a Dólar EEUU y Lira Italiana
+    CambioDolaraPeseta = 1 / 122.499
+    CambioLiraIaPeseta = 100 / 9.289
+    PesetaaDolar = Pesetas * CambioDolaraPeseta
+    PesetaaLiraI = Pesetas * CambioLiraIaPeseta
+    
+    # Salida de Pesetas a Dólar EEUU y Lira Italiana
+    print(f"{Pesetas} Pesetas equivalen a {PesetaaDolar} dólares EEUU y {PesetaaLiraI} libras italianas.")
+    
+# Ejecutar la función
+ejercicio_10()

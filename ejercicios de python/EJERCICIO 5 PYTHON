@@ -1,0 +1,21 @@
+def ejercicio_5_nota_final():
+    # Entrada de datos
+    parc1 = float(input("Ingrese la primera nota del parcial: "))
+    parc2 = float(input("Ingrese la segunda nota del parcial: "))
+    parc3 = float(input("Ingrese la tercera nota del parcial: "))
+    EF = float(input("Ingrese la calificación de su examen final: "))
+    TF = float(input("Ingrese la calificación del trabajo final: "))
+
+    # Procesos
+    prom = (parc1 + parc2 + parc3) / 3
+    PP = prom * 0.55
+    PEF = EF * 0.30
+    PTF = TF * 0.15
+    
+    NF = PP + PEF + PTF
+
+    # Salida de datos
+    print("Estimado alumno, su nota final de la materia de algoritmo es:", NF)
+
+# Ejecutar la función
+ejercicio_5_nota_final()

@@ -1,0 +1,14 @@
+def ejercicio_2():
+    # Entradas
+    capital = float(input("Capital que desea invertir: "))
+
+    # Caja negra
+    calcular = (capital * 2) / 100
+
+    # Salida
+    print("Ganancia por el interés:", calcular)
+
+# Ejecutar la función
+ejercicio_2()
+
+

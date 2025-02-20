@@ -1,0 +1,13 @@
+def ejercicio_4():
+    # Entradas
+    compra = int(input("Valor total de la compra: "))
+
+    # Caja negra
+    multiplica = (compra * 15) / 100
+    resta = compra - multiplica
+
+    # Salida
+    print("El valor a pagar con el descuento es de:", resta)
+
+# Ejecutar la función
+ejercicio_4()

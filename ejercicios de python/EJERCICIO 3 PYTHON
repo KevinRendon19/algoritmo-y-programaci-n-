@@ -1,0 +1,12 @@
+def ejercicio_3():
+    # Entradas
+    sueldo = int(input("Sueldo base: "))
+
+    # Caja negra
+    calcular = (sueldo * 10) / 100
+
+    # Salida
+    print("Sueldo por las comisiones:", calcular)
+
+# Ejecutar la función
+ejercicio_3()
