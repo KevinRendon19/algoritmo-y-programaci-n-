@@ -1,0 +1,19 @@
+def calcular_inversion(capital, tasa_interes, tiempo):
+    while tiempo > 0:
+        intereses = capital * (tasa_interes / 100)
+        if intereses > 100000:
+            capital += intereses  # Reinvertir intereses si superan $100,000 COP
+        tiempo -= 1
+    return capital
+
+# Datos de entrada
+capital_inicial = float(input("Ingrese el capital inicial: "))
+tasa_interes_anual = float(input("Ingrese la tasa de interés anual (en %): "))
+tiempo_en_anios = int(input("Ingrese el tiempo de inversión en años: "))
+
+# Cálculo del capital final
+capital_final = calcular_inversion(capital_inicial, tasa_interes_anual, tiempo_en_anios)
+
+print(f"El capital final en la cuenta será: ${capital_final:,.2f} COP")
+
+
